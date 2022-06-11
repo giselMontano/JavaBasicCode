@@ -14,12 +14,13 @@ public class ArrayExamples {
 		System.out.println(price[0]);//0.0 this is by default when you don't store anything in "0"
 
 		//[]CAN ALSO BE PLACED AFTER VARIABLE NAME
-		int numbers[]=new int[3];//[3]ONLY FOR 3 ELEMENTS AND STORE 4 (0,1,2,3,)//THERE IS NO SPACE
+		int numbers[]=new int[3];//[3] ONLY FOR 3 ELEMENTS INDEX GO UP TO 2-->0,1,2 AND STORED 4 ELEMENTS (0,1,2,3,)//THERE IS NO SPACE
 		numbers[0]=10;
 		numbers[1]=11;
 		numbers[2]=12;
-		numbers[3]=13;
-		System.out.println(numbers[1]);//ERROR->java.lang.ArrayIndexOutOfBoundsException: 3
+		numbers[3]=13;//INDEX OUT OF BOUND,//ERROR->java.lang.ArrayIndexOutOfBoundsException: 3
+		
+		System.out.println(numbers[3]);
 		
 		
 		//ARRAY ARE FIXED IN SIZE FROM[3] TO[4]

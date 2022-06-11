@@ -9,7 +9,7 @@ public class MultiplicationTableNestedLoop {
 			for (int y = 1; y <= 10; y++) {
 				System.out.println(x + " x " + y + " = " + (x * y));
 			}
-			System.out.println("-------------");
+			System.out.println();
 		}
 
 	}

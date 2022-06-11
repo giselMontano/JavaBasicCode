@@ -5,7 +5,7 @@ public class ContinueKeyWord {
 	public static void main(String[] args) {
 		// CONTINUE KEYWORD
 		// SKIPS CURRENT EXECUTIO/ITERATION AND GO BACK TO THE BEGINNING
-		//
+		//IN ORDER TO USE CONTINUE YOU MUST HAVE A CONDITON 
 		
 		for (int i = 1; i <= 5; i++) {
 			if (i == 2) {

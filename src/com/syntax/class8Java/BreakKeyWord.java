@@ -3,15 +3,13 @@ package com.syntax.class8Java;
 public class BreakKeyWord {
 
 	public static void main(String[] args) {
-		
+		//IN ORDER TO USE BREAK YOU MUST HAVE A CONDITION
 		
 		for (int i = 1; i <= 5; i++) {
 			System.out.print("Hello ");
 		}
 		
-		
-		
-		
+	
 System.out.println();
 		// INFINITE LOOP UNTILL WE ADD BREAK
 		boolean summer = true;
